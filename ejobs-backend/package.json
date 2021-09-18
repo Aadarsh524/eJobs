@@ -1,0 +1,30 @@
+{
+  "name": "ejobs-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "path": "^0.12.7",
+    "pusher": "^5.0.0",
+    "react-scripts": "^4.0.3",
+    "validator": "^13.6.0"
+  }
+}

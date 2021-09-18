@@ -1,0 +1,341 @@
+ .profile {
+     position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(204, 255, 247);
+}
+.upperProfile {
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+    grid-gap: 25px;
+    height: auto;
+    width: 100%;  
+}
+.personalInfo {
+    height: auto;
+    width: auto;
+    background-color: white;
+  
+}
+.aboutUser{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.aboutUser h2{
+    font-size: 20px;
+    color: gray;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aboutUser p{
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    word-spacing: 4px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.upper{
+    height: auto;
+    width: auto;
+    background-color: rgb(57, 86, 94);
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+
+}
+
+.upper>img {
+    height: 140px !important;
+    width: 140px !important;
+    border-radius: 5%;
+    object-fit: cover;
+}
+.userName {
+   display: flex;
+   flex-direction: column;
+   margin-left: 25px;
+}
+.userName h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+.userName h4 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+    letter-spacing: 1px;
+}
+.lower {
+    height: auto;
+    width: auto;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.lower >ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+
+.lower .socialLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.socialLinks li{
+    cursor: pointer;
+}
+ ul>li span {
+    font-weight: 500;
+    color: grey;
+    margin-left: 20px;
+    letter-spacing: .5px;
+}
+.portfolioSite {
+    height: auto;
+    width: auto;
+    padding: 5px 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: gray;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+    background-color: rgba(0, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+
+}
+
+.lowerProfile {
+    height: auto;
+    width: 100%;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: .275fr 1fr;
+    grid-gap: 25px;
+}
+.otherInfo{
+    background-color: white;
+    padding: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    
+}
+.skillsAndLanguage{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr .1fr .5fr;
+} 
+.skillsAndLanguage hr {
+    width: 1px;
+    height: 100%;
+    background-color: gainsboro;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0;
+
+}
+.skills h4 {
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+}
+.skills ul {
+    list-style-type: none;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.skills ul  li{
+    height: auto;
+    width: auto;
+    padding: 6px 14px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: gray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 10px;
+    letter-spacing: .5px;
+    margin-right: 10px;
+
+}
+.otherInfo>ul>li {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    background-color: rgba(220, 220, 220, 0.5);
+    border-radius: 5px;
+    margin-top: 15px;
+    list-style-type: none;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Open Sans',
+        'Helvetica Neue',
+        sans-serif;
+}
+.otherInfo ul >li span{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    letter-spacing: .5px;
+}
+.editBtn1 {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    padding: 8px 14px;
+    background-color: #99ff99;
+    color: grey;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.profileCredentials{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 25px;
+    height: auto;
+    width: 100%;
+}
+.education{
+     height: auto;
+     width: auto;
+     background-color: white;
+     box-sizing: border-box;
+}
+.experience {
+     width: auto;
+     height: auto;
+     background-color: white;
+     box-sizing: border-box;
+}
+@media screen and (max-width:780px) {
+    .upper>img {
+        height: 100px !important;
+        width: 100px !important;
+        border-radius: 5%;
+        object-fit: cover;
+    }
+    .skills ul li {
+      
+        margin-bottom: 10px;
+        margin-top: 0;
+
+    }
+    .upperProfile {   
+        grid-template-columns:  1fr;
+    }
+    .lowerProfile {
+        grid-template-columns: 1fr;
+    }
+    .skillsAndLanguage {
+        grid-template-columns: 1fr;
+    }
+    .skillsAndLanguage hr {
+        display: none;
+        
+    }
+}
+.editBtn2 {
+   display: none;
+}
+@media screen and (max-width:480px) {
+.editBtn2 {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    padding: 8px 14px;
+    background-color: #99ff99;
+    color: grey;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.editBtn1 {
+    display: none;
+}
+}
